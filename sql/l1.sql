@@ -28,7 +28,7 @@
 
 
 > create table
--- create table name(
+-- create table table_name(
 --    username varchar(value) , 
 --    lastname varchar(value) , 
 --    gender varchar(6) , 
@@ -39,11 +39,12 @@
 
 
 > show table in row and collums
--- describe name; 
+-- describe table_name; 
       or 
--- desc name; 
+-- desc table_name; 
 
 >delete table
---drop name;
+--drop table_name;
 
-
+>update database
+--update table_name set fieldname=value where fieldname=value;
