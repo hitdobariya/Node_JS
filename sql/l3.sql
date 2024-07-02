@@ -56,3 +56,38 @@ select * from Students where Maths IN (56,96);
 select * from Students where City NOT IN ("Pune","Junagadh");
 
 select * from Students where Maths NOT IN (56,96);
+
+--Like
+select * from Students where FirstName LIKE "H%";
+
+select * from Students where FirstName LIKE "T%";
+
+select * from Students where FirstName LIKE "%T";
+
+--Limit
+select * from Students limit 3;
+
+select * from Students limit 3,3;
+
+--Asc 
+select * from Students order by Firstname asc;
+
+select * from Students order by City asc;
+
+--Desc
+select * from Students order by Firstname desc;
+
+select * from Students order by City desc;
+
+--Max
+select max(Gujarati) from students;
+
+select max(Age) from Students;
+
+--Min
+select min(Gujarati) from students;
+
+select min(Age) from Students;
+
+--Sum
+select sum(Gujarati) from students;
