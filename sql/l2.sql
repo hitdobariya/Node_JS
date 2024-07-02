@@ -1,6 +1,6 @@
 \sql
 
-\connect root@localhost:3306;
+\connect root@localhost:3306
 
 create database user;
 

@@ -48,3 +48,6 @@
 
 >update database
 --update table_name set fieldname=value where fieldname=value;
+
+>delete data in table
+delete from table_name where fieldname=value;
